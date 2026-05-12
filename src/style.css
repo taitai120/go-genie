@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* GO-GENIE Brand Colors */
+  --color-brand: #3F89BD;
+  --color-brand-dark: #1A6BA4;
+  --color-brand-light: #5A9FCC;
+
+  --color-body-bg: #F9FAFA;
+
+  /* Text Colors */
+  --color-heading: #262B43E5;
+  --color-heading-solid: #262B43;
+
+  /* Icon Background Colors */
+  --color-icon-blue: #E8F4FC;
+  --color-icon-teal: #E8F5F0;
+  --color-icon-yellow: #FEF9E7;
+
+  /* Primary palette based on brand */
+  --color-primary-50: #f0f7fc;
+  --color-primary-100: #e0effa;
+  --color-primary-200: #b8daf3;
+  --color-primary-300: #8fc4eb;
+  --color-primary-400: #5A9FCC;
+  --color-primary-500: #3F89BD;
+  --color-primary-600: #3F89BD;
+  --color-primary-700: #1A6BA4;
+  --color-primary-800: #155a8a;
+  --color-primary-900: #104970;
+
+  /* Accent color (same as brand) */
+  --color-accent: #3F89BD;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-body-bg);
+}
